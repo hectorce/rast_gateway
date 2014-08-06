@@ -57,8 +57,8 @@ class WebRast:
 
 		self.cur.execute(sql, params)
 		#print str(sql + params)
-
-	        return 'data saved in database!'
+		
+		return 'data saved in database!'
 
 # call class
 #rast = WebRast()
@@ -121,9 +121,9 @@ if __name__ == "__main__":
    #port = 50000
    #buf = 1024
    #server_address = ('gwce.dyndns.org', 50000)
-   server_address = ('fernandodesigner.com', 50000)
+   #server_address = ('fernandodesigner.com', 50000)
    #server_address = ('ceararast.com', 50000)
-   #server_address = ('localhost', 50000)
+   server_address = ('localhost', 50000)
 
    serversocket = socket(AF_INET, SOCK_STREAM)
    #serversocket.settimeout(30)
